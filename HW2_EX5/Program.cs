@@ -41,7 +41,7 @@ namespace Lesson2
             }
             else
             {
-                Console.WriteLine("Превышено количество попыток для ввода пароля");
+                Console.WriteLine("Превышено количество попыток для ввода пароля.");
             }
         }
     }
