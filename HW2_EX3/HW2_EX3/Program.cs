@@ -15,19 +15,14 @@ namespace HW2_EX3
             bool a = true;
             while (a)
             {
-                Console.WriteLine("Напишите положительное число");
+                Console.WriteLine("Напишите число");
                 number = Convert.ToInt32(Console.ReadLine());
-                if (number % 2 == 0)
-                {
-
-                }
-                else
+                if (number % 2 == 1)
                 {
                     if (number >= 0)
                     {
                         sum = sum + number;
                     }
-                   
                 }
                 if(number == 0)
                 {
